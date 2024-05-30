@@ -25,11 +25,12 @@ app.use(cors());
 
 app.set("styles", path.join(__dirname, "styles"));
 app.set("views", path.join(__dirname, "views"));
-app.set("view engine", "pug");
+//for html page we should use ejs instead of html and html file should end up with .ejs
+app.set("view engine", "ejs");
 
 
-app.get("/", async (req, res) => {
-  res.send('welcome to new education site')
+app.get("/",(req, res) => {
+  res.render("home__static");
 });
 
 
