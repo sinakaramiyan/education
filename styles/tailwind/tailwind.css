@@ -4,7 +4,5 @@
 
 /*add tailwind css as classes instead of add styles in pug tag*/
 @layer components{
-  .home{
-    @apply bg-blue-900
-  }
+
 }

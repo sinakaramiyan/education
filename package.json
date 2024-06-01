@@ -40,6 +40,7 @@
     "image-minimizer-webpack-plugin": "^4.0.0",
     "imagemin": "^9.0.0",
     "imagemin-gifsicle": "^7.0.0",
+    "imagemin-jpegtran": "^7.0.0",
     "imagemin-mozjpeg": "^10.0.0",
     "imagemin-optipng": "^8.0.0",
     "imagemin-pngquant": "^10.0.0",
