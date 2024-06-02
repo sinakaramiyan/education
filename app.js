@@ -33,6 +33,10 @@ app.get("/",(req, res) => {
   res.render("home__static");
 });
 
+app.get("/testimonial", (req, res) => {
+  res.render("testimonial");
+})
+
 
 app.listen(port, () => {
   console.log(`listening at http://localhost:${port}`);
