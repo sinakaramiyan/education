@@ -33,8 +33,24 @@ app.get("/",(req, res) => {
   res.render("home__static");
 });
 
+app.get("/dashboard", (req,res) => {
+  res.render("home__dynamic");
+})
+
 app.get("/testimonial", (req, res) => {
   res.render("testimonial");
+})
+
+app.get("/courses", (req,res) => {
+  res.render("courses");
+})
+
+app.get("/course", (req,res) => {
+  res.render("course");
+})
+
+app.get("/login", (req,res) => {
+  res.render("login");
 })
 
 

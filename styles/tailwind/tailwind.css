@@ -2,7 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-/*add tailwind css as classes instead of add styles in pug tag*/
-@layer components{
+@font-face {
+  font-family: "IRANSansXV";
+  src: url("/fonts/IRANSansXV.woff2");
+}
 
+*,
+::before,
+::after {
+  font-size: calc(100vw / 1024 * 10);
+  font-family: "IRANSansXV"!important;
 }

@@ -5,7 +5,10 @@ module.exports = {
     "./public/**/*.js",
   ],
   theme: {
-    extend: {},
+    // for use font in tags : font-IRANSansXV
+    // fontFamily: {
+    //   IRANSansXV: ["IRANSansXV", "IRANSansXV"],
+    // }
   },
   plugins: [],
 }
