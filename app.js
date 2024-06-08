@@ -4,6 +4,7 @@ const logger = require("morgan");
 const errorHandler = require("errorhandler");
 const bodyParser = require("body-parser");
 const methodOverride = require("method-override");
+const es6Renderer = require('express-es6-template-engine')
 
 const express = require("express");
 const cors = require('cors'); 
@@ -27,6 +28,10 @@ app.set("styles", path.join(__dirname, "styles"));
 app.set("views", path.join(__dirname, "views"));
 //for html page we should use ejs instead of html and html file should end up with .ejs
 app.set("view engine", "ejs");
+
+// app.engine('html', es6Renderer);
+// app.set('view engine', 'html');
+
 
 
 app.get("/",(req, res) => {

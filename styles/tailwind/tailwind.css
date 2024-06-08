@@ -10,6 +10,6 @@
 *,
 ::before,
 ::after {
-  font-size: calc(100vw / 1024 * 10);
+  /* font-size: calc(100vw / 1024 * 10); */
   font-family: "IRANSansXV"!important;
 }
