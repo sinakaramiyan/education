@@ -11,5 +11,7 @@
 ::before,
 ::after {
   /* font-size: calc(100vw / 1024 * 10); */
+  /* font-size: calc(0.3rem + 0.5vw); */
+  /* font-size: clamp(24px, 32px , 40px); */
   font-family: "IRANSansXV"!important;
 }

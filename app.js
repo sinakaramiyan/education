@@ -58,6 +58,10 @@ app.get("/login", (req,res) => {
   res.render("login");
 })
 
+app.get("/admin", (req,res) => {
+  res.render(("admin"));
+})
+
 
 app.listen(port, () => {
   console.log(`listening at http://localhost:${port}`);
